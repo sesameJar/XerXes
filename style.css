@@ -1,0 +1,21 @@
+.clear{
+	clear      : both;
+	overflow   : hidden;
+	width      : 0 !important;
+	height     : 0 !important;
+	min-height : 0 !important;
+	min-width  : 0 !important;
+	border     : 0 none !important;
+	float      : none !important;
+}
+
+.container {
+
+}
+
+div.click-test {
+	width: 200px;
+	margin: 0 auto;
+	min-height: 200px;
+	background-color: #555;
+}
