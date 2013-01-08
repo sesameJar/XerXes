@@ -8,11 +8,11 @@ $(function(){
 	});
 	function momAnimate (){
 		$('div.mom').animate({
-			bottom:-800
+			bottom:-900
 		},2000,null,function(){
 			var giveIt = $('.child').eq(19);
 			
-			console.log(giveIt.position().top);
+			console.log(giveIt.offset());
 		})
 	}
 	
