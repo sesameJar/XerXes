@@ -3,15 +3,15 @@ $(function(){
 
 	$('div.clickme').click(function(){
 
-		momAnimate()
+		momAnimate();
 		
 	});
 	function momAnimate (){
 		$('div.mom').animate({
 			bottom:-600
 		},4000,null,function(){
-			var giveIt = $('.child').eq(19).css('top');
-			console.log(giveIt);
+			var giveIt = $('.child').eq(19);
+			console.log(giveIt.position);
 		})
 	}
 	
