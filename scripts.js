@@ -1,14 +1,18 @@
 $(function(){
 	var clickTmp=false;
 
-	$('div.click-test').click(function(){
+	$('div.clickme').click(function(){
 
-		clickTmp=true;
+		momAnimate()
 		
-	})
-	if(clickTmp){
-		alert('clicked');
-	}else{
-		alert('oops');
+	});
+	function momAnimate (){
+		$('div.mom').animate({
+			bottom:-600
+		},4000,null,function(){
+			var giveIt = $('.child').eq(19).css('top');
+			console.log(giveIt);
+		})
 	}
+	
 });

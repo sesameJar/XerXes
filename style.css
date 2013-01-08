@@ -12,10 +12,35 @@
 .container {
 
 }
-
-div.click-test {
-	width: 200px;
+.clickme{
+	width: 600px;
+	min-height: 30px;
+	background-color: red;
 	margin: 0 auto;
-	min-height: 200px;
-	background-color: #555;
+}
+section.grandma {
+	position        :relative;
+	width           : 600px;
+	min-height      : 600px;
+	background-color: #666;
+	overflow: visible;
+	margin: 0 auto;
+}
+
+section.grandma div.mom {
+	position         : absolute;
+	width            : 450px;
+	min-height       : 1500px;
+	background-color : #444;
+	bottom           : 0;
+	left             : 100px;
+}
+
+div.mom div.child {
+	position: absolute;
+	width        : 120px;
+	min-height   : 120px;
+	margin-right : 30px;
+	background-color: #a88;
+
 }
