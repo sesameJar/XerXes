@@ -8,7 +8,8 @@ $(function(){
 	});
 	function momAnimate (){
 		$('div.mom').animate({
-			bottom:-900
+			
+			'-webkit-animation-play-state':'running'
 		},2000,null,function(){
 			var giveIt = $('.child').eq(19);
 			

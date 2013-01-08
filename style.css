@@ -32,15 +32,20 @@ section.grandma div.mom {
 	width            : 450px;
 	min-height       : 1500px;
 	background-color : #444;
-	bottom           : 0;
 	left             : 100px;
+	-webkit-animation: mysheet 4s  ;
+	-webkit-animation-play-state:paused;
 }
 
 div.mom div.child {
-	position: absolute;
 	width        : 120px;
 	min-height   : 120px;
 	margin-right : 30px;
 	background-color: #a88;
-	
+}
+@-webkit-keyframes mysheet
+{
+	from {top:-1300px;}
+	to {top: 0px;}
+
 }
