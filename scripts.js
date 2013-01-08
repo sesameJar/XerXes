@@ -11,7 +11,7 @@ $(function(){
 			bottom:-600
 		},4000,null,function(){
 			var giveIt = $('.child').eq(19);
-			console.log(giveIt.position);
+			console.log(giveIt.position().left);
 		})
 	}
 	
